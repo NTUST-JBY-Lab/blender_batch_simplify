@@ -28,7 +28,7 @@ class SimplifierProperties(PropertyGroup):
     recursive_process: BoolProperty(
         name="Recursive Process",
         description="遞迴處理所有子資料夾",
-        default=False
+        default=True
     ) # type: ignore
     
     output_directory: StringProperty(
